@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me Tornando Bilíngue</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        header {
+            background-color: #4CAF50;
+            padding: 20px 0;
+            color: white;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        .cta-button {
+            background-color: #FF5733;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .hero-section {
+            background: url('imagem-hero.jpg') no-repeat center center/cover;
+            padding: 100px 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .hero-section h2 {
+            font-size: 3em;
+        }
+
+        .intro-section {
+            padding: 50px 20px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 50px 20px;
+        }
+
+        .feature-item {
+            flex: 1;
+            margin: 15px;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-item h3 {
+            color: #4CAF50;
+        }
+
+        .benefits-section {
+            background-color: #f9f9f9;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .testimonials {
+            padding: 50px 20px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .testimonial {
+            margin: 20px;
+            padding: 20px;
+            background-color: #f1f1f1;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: #f1f1f1;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1>Me Tornando Bilíngue</h1>
+        </div>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="hero-section">
+        <div class="container">
+            <h2>Fale, entenda e pense em inglês com um plano simples de 30 minutos por dia</h2>
+            <p>Mesmo que você já tenha tentado e desistido antes</p>
+            <a href="#" class="cta-button">QUERO ME TORNAR BILÍNGUE AGORA</a>
+        </div>
+    </section>
+
+    <!-- Introdução Persuasiva -->
+    <section class="intro-section">
+        <div class="container">
+            <h2>Quantas vezes você já disse para si mesmo:</h2>
+            <p>“Agora eu vou aprender inglês”... e acabou parando no meio do caminho? A verdade é que o problema não é você – é o método. O Me Tornando Bilíngue é um planner digital completo que te guia, passo a passo, para que você fale, entenda e pense em inglês de forma natural e consistente.</p>
+            <a href="#" class="cta-button">Garanta o seu acesso agora</a>
+        </div>
+    </section>
+
+    <!-- Mecanismo Único da Solução -->
+    <section class="features">
+        <div class="container">
+            <h2>O Mecanismo Único da Solução</h2>
+            <div class="feature-item">
+                <h3>Segunda</h3>
+                <p>Vocabulário para situações reais do dia a dia.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Terça</h3>
+                <p>Gramática essencial sem explicações cansativas.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Quarta</h3>
+                <p>Listening com músicas, séries e filmes.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Quinta</h3>
+                <p>Prática de escrita e construção de frases.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Sexta</h3>
+                <p>Jogos e desafios para fixar o conteúdo.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Sábado</h3>
+                <p>Revisão inteligente da semana.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Domingo</h3>
+                <p>Atividade leve para manter o contato com a língua.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefícios -->
+    <section class="benefits-section">
+        <div class="container">
+            <h2>O que você vai conquistar com o Me Tornando Bilíngue?</h2>
+            <p>✅ Clareza sobre o que estudar todos os dias.</p>
+            <p>✅ Aumento de vocabulário e compreensão naturalmente.</p>
+            <p>✅ Melhora na escrita e fala sem aulas cansativas.</p>
+            <p>✅ Estudo no seu ritmo, sem pressão e sem precisar gastar com cursos caros.</p>
+            <p>✅ Consistência com resultados semana após semana.</p>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>O que dizem quem já usa</h2>
+            <div class="testimonial">
+                <p>“Eu já tinha desistido de aprender inglês. Com esse planner, finalmente consegui estudar todos os dias e hoje consigo entender séries sem legenda!” – Mariana S.</p>
+            </div>
+            <div class="testimonial">
+                <p>“A melhor parte é que não preciso pensar no que vou estudar. Em 2 meses já senti uma diferença enorme!” – Lucas F.</p>
+            </div>
+            <a href="#" class="cta-button">Comece agora sua jornada bilíngue!</a>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2025 Me Tornando Bilíngue | Todos os direitos reservados</p>
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Termos de Uso</a>
+    </footer>
+
+</body>
+</html>
